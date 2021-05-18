@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#130c2c"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Welcome to F-Talk"
+            android:textColor="#d00d36"
+            android:textSize="30sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/f___talk_logo_white"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_rawRes="@raw/register"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true">
+        </com.airbnb.lottie.LottieAnimationView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/reg_email_form"
+                android:background="@drawable/edit_text"
+                android:hint="Email"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/white"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_email"
+                android:textColor="@color/white"
+                android:padding="13dp">
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/reg_password_form"
+                android:background="@drawable/edit_text"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:hint="Password"
+                android:textColorHint="@color/white"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_password"
+                android:padding="13dp">
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/reg_confirmpassword_form"
+                android:background="@drawable/edit_text"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:hint="Confirm Password"
+                android:textColorHint="@color/white"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_password"
+                android:padding="13dp">
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/register_btn"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#d00d36"
+                android:background="@drawable/button"
+                android:text="register"/>
+            <TextView
+                android:id="@+id/register"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:textStyle="italic"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

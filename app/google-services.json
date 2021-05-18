@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "985355265322",
+    "project_id": "f-talk-4c05a",
+    "storage_bucket": "f-talk-4c05a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985355265322:android:0e9e390d8f573454bdaa53",
+        "android_client_info": {
+          "package_name": "com.mollosradix.faiconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985355265322-6n49mv42pdq80teulmfr914s8jt4ereb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkPZYVJuQ2lJPYhP6QxUfLVtmVNCUgUR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985355265322-6n49mv42pdq80teulmfr914s8jt4ereb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
